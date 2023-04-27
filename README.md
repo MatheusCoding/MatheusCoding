@@ -7,7 +7,7 @@
 <br>
 <p align="left"> <img width="200" src="https://komarev.com/ghpvc/?username=matheuscoding&label=Visualiza%C3%A7%C3%B5es%20do%20perfil&color=0e75b6&style=flat" alt="matheuscoding" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img width="600" src="https://github-profile-trophy.vercel.app/?username=matheuscoding" alt="matheuscoding" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img width="500" src="https://github-profile-trophy.vercel.app/?username=matheuscoding" alt="matheuscoding" /></a> </p>
 <img align="right" width="250" alt="🦑" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDIzYWJkODg3OWRhYjM5YmVkZjliY2UzOTM3Y2M2Y2Y2NTY2ZWQ0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/7L3tUhBpYSkU7fA9WI/giphy.gif">
 
 - 🌱 I’m currently learning **Javascript, Java, Python, C#, C++ and Kotlin**
