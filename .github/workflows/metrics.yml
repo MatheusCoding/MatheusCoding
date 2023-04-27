@@ -3,19 +3,22 @@
 # See https://github.com/lowlighter/metrics for documentation about how to use metrics action
 
 name: Metrics
+
 on:
   # 🌏 Think about the planet! No need to update stats too frequently
-  schedule: [{cron: "0 16 * * *"}]
+  schedule:
+    - cron: "0 16 * * *"
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
+
 jobs:
-   metrics:
+  metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
           output_action: gist
-          committer_gist: aaed1317f72cc73237f5bffdba3325a2
+          committer_gist: ${{ secrets.GIST }}
 
       - name: 🦑 Media
         if: ${{ success() || failure() }}
@@ -23,10 +26,10 @@ jobs:
         with:
           filename: media.svg
           token: ${{ secrets.TOKEN }}
-          base: ""          
+          base: ""
           plugin_music: yes
           plugin_music_playlist: https://music.youtube.com/playlist?list=PL2HuRjA3PsMq4inD0I3raf2uz_ut2RrFc
-         
+
       - name: 🦑 Achievements
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -61,7 +64,7 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
-          
+
       - name: 🦑 MBTI
         uses: lowlighter/metrics@latest
         with:
