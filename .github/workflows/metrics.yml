@@ -9,7 +9,8 @@ on:
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
 jobs:
-  metrics:
+   metrics:
+    runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
