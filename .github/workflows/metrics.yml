@@ -13,61 +13,61 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-        output_action: gist
-        committer_gist: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          output_action: gist
+          committer_gist: aaed1317f72cc73237f5bffdba3325a2
 
       - name: 🦑 Media
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-         filename: media.svg
-         token: ${{ secrets.TOKEN }}
-         base: ""          
-         plugin_music: yes
-         plugin_music_playlist: https://music.youtube.com/playlist?list=PL2HuRjA3PsMq4inD0I3raf2uz_ut2RrFc
+          filename: media.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""          
+          plugin_music: yes
+          plugin_music_playlist: https://music.youtube.com/playlist?list=PL2HuRjA3PsMq4inD0I3raf2uz_ut2RrFc
          
       - name: 🦑 Achievements
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-         filename: achievements.svg
-         token: ${{ secrets.TOKEN }}
-         base: ""
-         output_action: gist
-         committer_gist: ${{ secrets.GIST }}
-         plugin_achievements: yes
-         plugin_achievements_display: compact
-         plugin_fortune: yes
+          filename: achievements.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_fortune: yes
 
       - name: 🦑 General
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-         filename: general.svg
-         token: ${{ secrets.TOKEN }}
-         base: header
-         base_indepth: yes
-         config_order: base.header, isocalendar, languages, notable, discussions, topics
-         output_action: gist
-         committer_gist: ${{ secrets.GIST }}
-         plugin_isocalendar: yes
-         plugin_languages: yes          
-         plugin_languages_details: lines, bytes-size, percentage
-         plugin_languages_sections: most-used, recently-used
-         plugin_languages_indepth: yes   
-         plugin_topics: yes
-         plugin_topics_limit: 0
-         plugin_topics_mode: icons
-         plugin_notable: yes
-         plugin_discussions: yes
+          filename: general.svg
+          token: ${{ secrets.TOKEN }}
+          base: header
+          base_indepth: yes
+          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_isocalendar: yes
+          plugin_languages: yes          
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes   
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_notable: yes
+          plugin_discussions: yes
           
       - name: 🦑 MBTI
         uses: lowlighter/metrics@latest
         with:
-         filename: metrics.plugin.16personalities.svg
-         token: ${{ secrets.TOKEN }}
-         base: ""
-         plugin_16personalities: yes
-         plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}
-         plugin_16personalities_sections: personality, traits
-         plugin_16personalities_scores: no
+          filename: metrics.plugin.16personalities.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""
+          plugin_16personalities: yes
+          plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}
+          plugin_16personalities_sections: personality, traits
+          plugin_16personalities_scores: no
