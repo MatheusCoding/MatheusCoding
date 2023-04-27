@@ -1,7 +1,7 @@
 [<img align="right" width="390" alt="🦑" src="https://gist.github.com/MatheusCoding/f2610f9b47f5e06e28e38072311717e5/raw/f2cb1830647513151273eef735dba81a8f0ce4aa/achievements.svg">](#)
 
-<h1 align="left">Hi there, I'am Matheus.</h1>
-<h3 align="center">A self-taught developer fascinated by technologies and programming.</h3>
+<h1 align="left">Hi there <img width="100px" src="https://media2.giphy.com/media/v0dGnTDFgEr68myH0C/giphy.gif?cid=ecf05e47tz53gwxly1sdn3yn62fdyejmslpxttb5oc4hyc0b&ep=v1_stickers_search&rid=giphy.gif"/>, I'am Matheus.</h1>
+<h3 align="left">A self-taught developer fascinated by technologies and programming.</h3>
 
 [<img align="right" width="300" alt="🦑" src="https://gist.githubusercontent.com/MatheusCoding/f2610f9b47f5e06e28e38072311717e5/raw/b536cea9cc6d1da894712d00c97fcdb0ab9790f2/media.svg"/>](#)
 <br>
@@ -10,8 +10,8 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img width="500" src="https://github-profile-trophy.vercel.app/?username=matheuscoding" alt="matheuscoding" /></a> </p>
 <img align="right" width="250" alt="🦑" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDIzYWJkODg3OWRhYjM5YmVkZjliY2UzOTM3Y2M2Y2Y2NTY2ZWQ0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/7L3tUhBpYSkU7fA9WI/giphy.gif">
 
-- 🌱 I’m currently learning **Javascript, Java, Python, C#, C++ and Kotlin**
 
+<p align="left"><img width="100px" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTQ5ZWI2YTQ1YTg5N2UyZmZhYjQyZTZkMjZkYzJlNjVkZmYyOTc4ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/5tdug88O18Rvm2m0tt/giphy.gif"/><strong>I’m currently learning Javascript, Java, Python, C#, C++ and Kotlin</strong></p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -24,5 +24,5 @@
 <br>
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
   <img width="418" src="https://github-readme-stats.vercel.app/api?username=matheuscoding&show_icons=true&theme=synthwave&locale=en" alt="matheuscoding"/>
-  <img width="300" src="https://github-readme-stats.vercel.app/api/top-langs?username=matheuscoding&show_icons=true&theme=synthwave&locale=en&layout=compact" alt="matheuscoding"/>
+  <img width="374" src="https://github-readme-stats.vercel.app/api/top-langs?username=matheuscoding&show_icons=true&theme=synthwave&locale=en&layout=compact" alt="matheuscoding"/>
 </div>
